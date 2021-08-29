@@ -31,7 +31,7 @@ const firmwareUpgrade_gauge = new Gauge({
 async function getMetrics() {
   const res = (await instance.get(`/`)).data;
   const on = res.state.on.value ? 1 : 0;
-  const brightness = res.state.brightness;
+  const brightness = res.state.brightness.value;
   const firmwareUpgradeAvailable = res.state.firmwareUpgrade ? 1 : 0;
   return { on, brightness, firmwareUpgradeAvailable };
 }
