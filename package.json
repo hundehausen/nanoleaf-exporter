@@ -1,0 +1,33 @@
+{
+  "name": "nanoleaf-exporter",
+  "version": "1.0.0",
+  "description": "Prometheus Exporter for nanoleaf.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hundehausen/nanoleaf-exporter.git"
+  },
+  "keywords": [
+    "nanoleaf",
+    "prometheus",
+    "exporter",
+    "metrics",
+    "nanoleaf",
+    "metrics"
+  ],
+  "author": "hundehausen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hundehausen/nanoleaf-exporter/issues"
+  },
+  "homepage": "https://github.com/hundehausen/nanoleaf-exporter#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "prom-client": "^13.2.0"
+  }
+}
