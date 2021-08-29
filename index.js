@@ -20,11 +20,11 @@ const on_gauge = new Gauge({
   help: "Boolean of whether nanoleaf is on or off.",
 });
 const brightness_gauge = new Gauge({
-  name: "nanoleaf_on",
+  name: "nanoleaf_brightness",
   help: "Number of brightness.",
 });
 const firmwareUpgrade_gauge = new Gauge({
-  name: "nanoleaf_on",
+  name: "nanoleaf_firmware_upgrade",
   help: "Boolean of whether nanoleaf has an upgrade available or not.",
 });
 
